@@ -1,14 +1,24 @@
+# Fluid Simulation
+
+##(1) SPH 3D Real-Time Fluid Simulation ##
 
 folked from https://github.com/saeedmahani/SPH-3D-Fluid-Simulation
 
+<p align="left">
+    <img src="sph_demo.gif", width="240">
+    <br>
+</p>
+
 Compile:
+
 修改了windows环境下编译的头文件依赖， visual studio 2019 验证。
+
 先编译 freeglut 并 install 到指定文件夹。cmake freeglut 时改掉默认的 install prefix。
+
 编译出 main_project.exe 后，把 freeglut install/bin/ 里的内容都 copy 到 main_project.exe 同文件夹。
 
 
-#------=----ORIGINAL README-----------#
-# SPH 3D Real-Time Fluid Simulation #
+----------ORIGINAL README-----------
 
 For our final project in Theodore Kim's Physics-Based Simulation class (Winter '12) we were asked to implement a large, non-trivial technique. My project is based on Matthias Müller's (et al.) research of applying Smoothed Particle Hydrodynamics (SPH) to fluid simulation - essentially simulating fluid as thousands of small particles, rather than the traditional Eularian grid-based approach.
 
